@@ -5,14 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
     <style>
-
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+        body {
+            background-color: #202124;
+        }
+        #main_elements {
+            position: absolute;
+            top: 30%;
+            left: 35%;
+        }
+        #inputer {
+            background-color: #202124;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            height: 50px;
+			width: 500px;
+            border-radius: 15px;
+        }
+        #button {
+            font-size: 30px;
+            background-color: #202124;
+            color: white;
+            border-radius: 15px;
+            border: 0px;
+        }
+        #mole {
+            font-family: 'Orbitron', sans-serif;
+            color: white;
+            font-size: 70px;
+        }
     </style>
 </head>
 <body>
     <div id="main_elements">
-        <input type="text">
-        <button>Cliсk</button>
+        <h1 align="center" id="mole">MOLE</h1>
+        <input id="inputer" type="text" placeholder="Куда копать?">
+        <button id="button" onclick="alert('Hello')"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg></button>
     </div>
-    <iframe src="https://www.google.ru/" frameborder="0"></iframe>
 </body>
 </html>
